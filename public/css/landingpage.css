@@ -1,0 +1,289 @@
+.hero-section
+{
+background-color:#F3F3F3 ;
+height:800px;
+width:1520px;
+position: relative;
+overflow-x: hidden;
+}
+.hidden,
+.hidden*
+{
+pointer-events:none;
+visibility:hidden;
+}
+.download-our-app
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 1200px;
+  top: 40px;
+  border-radius:10px;
+  font-size: 18px;
+  font-style: inter;
+  border: 2px solid #253570;
+}
+.h3l
+{
+  font-size: 20px;
+  color:#253570;
+  font-family: inter;
+  top:50px;
+  left:1100px;
+font-weight: 700;
+position: absolute;
+}
+.h3r
+{
+  font-size: 20px;
+  color:#253570;
+  font-family: inter;
+  top:50px;
+  left:900px;
+font-weight: 700;
+position: absolute;
+}
+.h3s
+{
+  font-size: 20px;
+  color:#253570;
+  font-family: inter;
+  top:50px;
+  left:750px;
+font-weight: 700;
+position: absolute;
+}
+.para{
+  position: absolute;
+  width: 765px;
+  height: 154px;
+  left: 240px;
+  top: 250px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight:700;
+  font-size: 50px;
+  line-height: 77px;
+  letter-spacing: 0.04em;;
+
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1) 2s;
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+.doc
+{
+  position: absolute;
+  width: 350px;
+  height: 500px;
+  left: 900px;
+  top: 200px;
+
+  background-color:transparent;
+  border-radius: 119px;
+ 
+
+}
+
+.para1
+{
+font-size: 18px;
+position: absolute;
+width: 632px;
+height: 58px;
+left: 240px;
+top: 440px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+
+line-height: 25px;
+letter-spacing: 0.04em;
+
+color: #989EB0;
+
+animation: 2s anim-para1 ease-out 5s;
+
+}
+
+@keyframes anim-para1 {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.Download
+{
+  box-sizing: border-box;
+
+position: absolute;
+width: 250px;
+height: 60px;
+left: 240px;
+top: 540px;
+font-size: 20px;
+font-family: inter;
+/*font-color:white;*/
+/* Main blue */
+
+background: #253570;
+/* Main blue */
+
+border: 2px solid #253570;
+border-radius: 16px;
+}
+.Register{
+position: absolute;
+width: 250px;
+height: 60px;
+left: 530px;
+top: 540px;
+font-size: 20px;
+font-family: inter;
+font-weight: 600;
+background: #F3F3F3;
+border: 2px solid #253570;
+border-radius: 16px;
+}
+.users
+{
+position: absolute;
+width: 155px;
+height: 55px;
+left: 300px;
+top: 650px;
+}
+.user{
+position: absolute;
+width: 275px;
+height: 19px;
+left: 480px;
+top: 670px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.04em;
+
+color: #989EB0;
+}
+.divpic
+{
+height:800;
+background-color:#F3F3F3;
+
+}*/
+.screen2{
+
+margin-right: 200px;
+  }
+.screen3
+{
+  position:absolute;
+left:300px;
+}
+.footer-container{
+  position: absolute;
+  top:1850px;
+  height: 280px;
+   background-color: rgba(37, 53, 112, 1);
+   color: white;
+   width: 100%;
+
+}
+.footer{
+  display: flex;
+  line-height: 0;
+}
+.sec{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 2px;
+  /* identical to box height */
+
+
+  letter-spacing: 0.04em;
+}
+
+
+/*button animation*/
+.download-our-app{
+  animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
+
+.download-our-app:hover{
+  background-color: rgb(215, 225, 237);
+  transform: translateY(-10px);
+
+}
+
+.doc{
+  animation: fadeUp 2s;
+}
+@keyframes fadeUp{
+  from{
+    opacity: 0;
+
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+/*text animation*/
+
+
+

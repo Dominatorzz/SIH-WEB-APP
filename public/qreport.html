@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Messages | Firebase</title>
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling/lib/qr-code-styling.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/qrstyle.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Data Saved</div>
+<!--name-->
+            <div class="inputBox">
+                <input type="text" onchange = "updateqrdata()" id="name" placeholder="Name" />
+            </div>
+<!--dob-->
+            <div class="inputBox">
+                <input type="date" onchange = "updateqrdob()" id="dob" placeholder="DOB" />
+            </div>
+<!--Bloodgroup-->
+            <div class="inputBox">
+                <input type="text" onchange = "updateqrbloodgroup()" id="bloodgroup" placeholder="Blood Group" />
+            </div>
+<!--Allergy-->
+            <div class="inputBox">
+                <input type="text" onchange = "updateqrallergy()" id="allergy" placeholder="Allergies" />
+            </div>
+<!--Aadhaar Number-->
+            <div class="inputBox">
+                <input type="text" onchange = "updateqradn()" id="adn" placeholder="Aadhaar Number" />
+            </div>
+
+<!--Medical History-->
+            <div class="inputBox">
+                <input type="text" onchange = "updateqrmedicalhistory()" id="medicalhistory" placeholder="Medical History" />
+            </div>
+<!--Medical Report-->
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" onchange = "updateqrmedicalreports()" placeholder="Medical Reports"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <button id="formbuttton" onclick="download();">Download Qr Code</button>
+    </div>
+
+    <div id="canvas"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./backend/firebase.js"></script>
+    <script src="./qr.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>dashboard</title>
+  <link href="./css/dashstyle.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+  <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js">
+  </script>
+
+</head>
+
+<body>
+  <h2>Dashboard</h2>
+  <h3>Hello, < email-id ></Email-id></h3>
+  <table>
+    <tr>
+      <td><a href="showreports.html"><button class="b1" style="left: 500px;top: 170px;" type="button" name="button"><img class="image1" src="./images/search.png"></button></a>
+        <p class="f" style="left: 500px; top: 360px;">View Medical History</p>
+      </td>
+      <td><a href="notification.html"><button class="b1" style="right: 450px;top: 170px;" type="button" name="button"><img class="image1" src="./images/notifications.png"></button></a>
+        <p class="f" style="right: 400px;top: 360px;">Notifications</p>
+      </td>
+    </tr>
+    <tr>
+      <td><a href=""><button class="b1" style="left: 500px;top: 450px;" type="button" name="button"><img class="image1" src="./images/vitals.png"></button></a>
+         <p class="f" style="left: 500px;top: 630px;">View Vitals</p>
+      </td>
+      <td><a href="qreport.html"><button class="b1" style="right: 450px;top: 450px;" type="button" name="button"><img class ="image1" src="./images/upload.png"></button></a>
+        <p class="f" style="right: 400px;top: 630px;">Upload Reports</p>
+      </td>
+    </tr>
+  </table>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+  <script src="./backend/firebase.js"></script>
+  <script src="./backend/backend.js"></script>
+  <script src="./dash.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+body{background: #F3F3F3;}
+
+h2{position: absolute;
+width: 767px;
+height: 63px;
+left: 386px;
+top: 40px;
+text-align:center;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 62px;
+/* identical to box height */
+color: #253570;
+}
+
+.b{
+position: absolute;
+width: 1238px;
+height: 220px;
+border:0px;
+background: #F3F3F3;
+box-shadow: inset -6px -6px 4px #FFFFFF, inset 6px 6px 4px #CECECE;
+border-radius: 10px;
+}
+
+.sort{
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: bold;
+ line-height: 24px;
+ color: #000000;
+
+position: absolute;
+width: 120px;
+height: 39px;
+left: 147px;
+top: 184px;
+
+background: #F3F3F3;
+box-shadow: inset -2px -2px 4px #FFFFFF, inset 2px 2px 4px #CECECE;
+border-radius: 10px;
+}
+.a
+{
+font-size: 22px;
+}
+.bc{
+font-size: 20px;
+}
+.mc
+{
+font-size: 20px;
+}
+.date{
+position: absolute;
+width: 257px;
+height: 36px;
+left: -20px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.drname
+{
+ position: absolute;
+ width: 132px;
+ height: 36px;
+ left: -5px;
+ top: 60px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 36px;
+
+ color: #000000;
+}
+.aditi
+{
+ position: absolute;
+ width: 132px;
+ height: 36px;
+ left: 80px;
+ top: 60px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 36px;
+
+ color: rgba(59, 79, 125, 0.75);
+}
+.treatment{
+ position: absolute;
+width: 202px;
+height: 36px;
+left:-20px;
+top: 100px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 36px;
+
+color: #000000;
+}
+.routine
+{
+
+ position: absolute;
+ width: 132px;
+ height: 36px;
+ left: 125px;
+ top: 100px;
+
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 36px;
+
+ color: rgba(59, 79, 125, 0.75);
+}
+
+.fa-solid{
+  position: absolute;
+height: 300px;
+width: 300px;
+left: 65.78%;
+right: 27.41%;
+top: 18%;
+bottom: 58.93%;
+color: #4BD23F;
+font-size: 30px;
+}
+.fa-circle-xmark{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+left: 65.78%;
+right: 27.41%;
+top: 18%;
+bottom: 58.93%;
+font-size: 30px;
+color: red;
+}
+
+.fi{position: absolute;
+width: 300px;
+height: 100px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 36px;
+text-align: center;
+
+/* Text color Small heading */
+
+color: rgba(59, 79, 125, 0.75);}

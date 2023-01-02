@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/signpatient.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+        ></script>
+
+  </head>
+  <body>
+    <h2 style="position: absolute;width: 184px;height: 63px;left: 580px;top: 150px;
+     font-family: 'Quicksand';font-style: normal;font-weight: 700;font-size: 50px;line-height: 62px;
+     text-align: center;color: #253570;">
+     Login
+   </h2>
+
+   <form class="" action="index.html" method="post">
+       <input style="box-shadow: inset -2px -2px 4px #FFFFFF, inset 2px 2px 4px #CECECE;border-radius: 10px;position: absolute;width: 427px;height: 58px;left: 600px;top: 300px; margin:0px 0px 10px; border:0px;background: #F3F3F3;" type="text" name="Aadhar no." value="" placeholder="Email"><br>
+       <input style="box-shadow: inset -2px -2px 4px #FFFFFF, inset 2px 2px 4px #CECECE;border-radius: 10px;position: absolute;width: 427px;height: 58px;left: 600px;top: 380px;margin:0px 0px 10px; border:0px;background: #F3F3F3;" type="password" placeholder="  Password"><br>
+   </form>
+   <a href="dash.html" rel="doc">
+     <button style="font-family: 'Inter';font-style: normal;font-weight: 500;font-size: 20px;line-height: 24px;color: #FFFFFF;box-shadow: -4px -4px 8px #FFFFFF, 4px 4px 8px #9BA0B3;border-radius: 10px;position: absolute;width: 340px;height: 60px;left: 650px;top: 470px;background: #253570;" onclick="login()" type="button">
+       Login
+     </button>
+   </a>
+
+   <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+        <script src="./backend/firebase.js"></script>
+        <script src="./backend/backend.js"></script>
+
+  </body>
+</html>
